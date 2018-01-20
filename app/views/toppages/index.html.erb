@@ -1,5 +1,10 @@
+<% if logged in? %>
+  <p>ログイン官僚ユーザ: <%= current_user.name %></p>
+<% else %>
 <div class="center jumbotton">
   <div class="text-center">
     <h1>Welcome to the Microposts</h1>
+    <%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
   </div>
 </div>
+<% end %>
