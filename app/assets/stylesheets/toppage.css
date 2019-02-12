@@ -1,0 +1,9 @@
+.box {
+  background-color: #191919;
+  padding: 20px;
+}
+
+.box h1 {
+  color: white;
+  padding: 10px;
+}
